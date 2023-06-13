@@ -1,0 +1,149 @@
+.react-input-emoji--container {
+    color: #4b4b4b;
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 21px;
+    margin: 5px 10px;
+    box-sizing: border-box;
+    flex: 1 1 auto;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    min-height: 20px;
+    min-width: 0;
+    outline: none;
+    width: inherit;
+    will-change: width;
+    vertical-align: baseline;
+    border: 1px solid #eaeaea;
+    margin-right: 0;
+  }
+  
+  .react-input-emoji--wrapper {
+    display: flex;
+    overflow: hidden;
+    flex: 1;
+    position: relative;
+    padding-right: 0;
+    vertical-align: baseline;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .react-input-emoji--input {
+    font-weight: 400;
+    max-height: 100px;
+    min-height: 20px;
+    outline: none;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    z-index: 1;
+    width: 100%;
+    user-select: text;
+    padding: 9px 12px 11px;
+    word-break: break-word;
+  }
+  
+  .react-input-emoji--input img {
+    vertical-align: middle;
+    width: 18px !important;
+    height: 18px !important;
+    display: inline !important;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+  
+  .react-input-emoji--overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9;
+  }
+  
+  .react-input-emoji--placeholder {
+    color: #a0a0a0;
+    pointer-events: none;
+    position: absolute;
+    transition: opacity 0.08s linear;
+    user-select: none;
+    opacity: 1;
+    z-index: 2;
+    left: 12px;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: calc(100% - 25px);
+  }
+  
+  .react-input-emoji--button {
+    position: relative;
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    overflow: hidden;
+    transition: color 0.1s ease-out;
+    margin: 0;
+    box-shadow: none;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    flex-shrink: 0;
+  }
+  
+  .react-input-emoji--button svg {
+    fill: #858585;
+  }
+  
+  .react-input-emoji--button__show svg {
+    fill: #128b7e;
+  }
+  
+  .react-emoji {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+  }
+  
+  .react-emoji-picker--container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  
+  .react-emoji-picker--wrapper.react-emoji-picker--wrapper__show {
+    height: 320px;
+  }
+  
+  .react-emoji-picker--wrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 285px;
+    overflow: hidden;
+    z-index: 10;
+  }
+  
+  .react-emoji-picker {
+    position: absolute;
+    top: 320px;
+    direction: ltr;
+    right: 0;
+    transition: top 0.1s ease-in-out;
+  }
+  
+  .react-emoji-picker__show {
+    top: 0;
+  }

@@ -1,0 +1,31 @@
+.message__wrapper {
+  padding: 0.5rem 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  background-color: transparent;
+}
+
+.message__wrapper:hover {
+  background-color: #00000017;
+}
+
+.message__author {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.message__text {
+  margin: 0;
+  font-size: 1.7rem;
+  margin-top: 0.5rem;
+}
+
+.message__date {
+  margin: 0;
+}
+
+.message__author-date__wrapper {
+  display: flex;
+  justify-content: space-between;
+}

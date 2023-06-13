@@ -1,0 +1,35 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm start",
+    "init": "cd client && npm i && cd ../server && npm i",
+    "test": "cd server && npm t",
+    "start": "cross-env NODE_ENV=production node ./server/src",
+    "heroku-postbuild": "NODE_ENV=production cd client && npm run build",
+    "install": "npm run init",
+    "kill": "fuser -k 4000/tcp"
+  },
+  "cacheDirectories": [
+    "node_modules",
+    "server/node_modules",
+    "client/node_modules"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedSafi97/chatapp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedSafi97/chatapp/issues"
+  },
+  "homepage": "https://github.com/AhmedSafi97/chatapp#readme",
+  "dependencies": {
+    "cross-env": "^7.0.2"
+  }
+}

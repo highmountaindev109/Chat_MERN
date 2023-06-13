@@ -1,0 +1,98 @@
+.message {
+    display: flex;
+    height: auto;
+    margin-bottom: 3px;
+  
+    @media (max-width: $medium) {
+      max-width: 600px;
+    }
+  
+    .message-content {
+      // min-width: 100px;
+      height: auto;
+      margin: 0px;
+      flex: 1;
+      // padding: 5px 10px;
+      // border-radius: 6px;
+      // box-shadow: 1px 1px 3px #8080808c;
+      // overflow: hidden;
+      p {
+        margin: 0px;
+        .sender {
+          margin: 0;
+          float: right;
+        }
+    
+        .text {
+          margin: 0;
+          img.photo{
+            max-width: 250px !important;
+            width: auto !important;
+            height: auto !important;
+          }
+        }
+  
+        .text.bold{
+          font-weight: bold;
+        }
+  
+        .url_underline{
+          cursor: pointer;
+          color : #007bff;
+          &:hover{
+            color : #0056b3;
+            text-decoration: underline;
+          }
+        }
+  
+        .size-9 img{ width: 21px; height: 21px}
+        .size-10 img{ width: 21px; height: 21px}
+        .size-11 img{ width: 22px; height: 22px}
+        .size-12 img{ width: 22px; height: 22px}
+        .size-13 img{ width: 23px; height: 23px}
+        .size-14 img{ width: 23px; height: 23px}
+        .size-15 img{ width: 24px; height: 24px}
+        .size-16 img{ width: 24px; height: 24px}
+        .size-17 img{ width: 25px; height: 25px}
+        .size-18 img{ width: 25px; height: 25px}
+        .size-19 img{ width: 26px; height: 26px}
+        .size-20 img{ width: 26px; height: 26px}
+        .size-21 img{ width: 27px; height: 27px}
+        .size-22 img{ width: 27px; height: 27px}
+        .size-23 img{ width: 28px; height: 28px}
+        .size-24 img{ width: 28px; height: 28px}
+        .size-25 img{ width: 29px; height: 29px}
+        .size-26 img{ width: 29px; height: 29px}
+        .size-27 img{ width: 30px; height: 30px}
+        .size-28 img{ width: 31px; height: 31px}
+        .size-29 img{ width: 32px; height: 32px}
+        .size-30 img{ width: 33px; height: 33px}
+        .size-31 img{ width: 34px; height: 34px}
+        .size-32 img{ width: 35px; height: 35px}
+        .size-33 img{ width: 36px; height: 36px}
+        .size-34 img{ width: 37px; height: 37px}
+        .size-35 img{ width: 38px; height: 38px}
+        .size-36 img{ width: 39px; height: 39px}
+        .size-37 img{ width: 40px; height: 40px}
+        .size-38 img{ width: 42px; height: 42px}
+        .size-39 img{ width: 43px; height: 43px}
+        .size-40 img{ width: 44px; height: 44px}
+        
+  
+        .time {
+          float: left;
+          font: $font-xs-italic;
+        }
+        
+        small{
+          font-size: 80%;
+          font-weight: 600;
+          padding: 4px 8px;
+          color: #447bc5;
+        }
+  
+      }
+      
+    }
+  
+  }
