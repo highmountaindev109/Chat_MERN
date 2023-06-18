@@ -30,7 +30,7 @@ as a user :
   - I can join a room to start chatting with the others in the room.
   - I can send and receive messages in a room to chat with other users.          
 
-## Technologies 
+## Technologies             
 - Node.js
 - Express.js
 - MongoDB
