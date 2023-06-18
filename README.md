@@ -19,7 +19,7 @@ Realtime chat application where you can join different rooms and get connected w
      ```                       
 - create `.env` file in the client directory with the following:     
      ```js
-     REACT_APP_CLIENT_ID=YOUR_GOOGLE_PROJECT_ID
+     REACT_APP_CLIENT_ID=YOUR_GOOGLE_PROJECT_ID           
      ```
 - run the server `npm run server` and in another terminal `npm run client`
 
