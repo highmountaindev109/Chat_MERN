@@ -34,5 +34,5 @@ as a user :
 - Node.js           
 - Express.js
 - MongoDB               
-- Socket.IO
+- Socket.IO             
 - React(hooks)
