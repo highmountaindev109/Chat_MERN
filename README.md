@@ -12,8 +12,8 @@ Realtime chat application where you can join different rooms and get connected w
 - create a project in the google console to be able to use 'login with google account'(optional)
 - create `.env` file in the server directory with the following:                 
      ```js
-     CLIENT_ID=YOUR_GOOGLE_PROJECT_ID          
-     PRO_DB=PRODUCTION_MONGO_DB_URL
+     CLIENT_ID=YOUR_GOOGLE_PROJECT_ID           
+     PRO_DB=PRODUCTION_MONGO_DB_URL            
      SECRET_KEY=ANY_SECERT_KEY_TO_SIGN_TOKENS
      DEV_DB=DEVELOPMENT_MONGO_DB_URL
      ```
