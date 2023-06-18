@@ -23,7 +23,7 @@ Realtime chat application where you can join different rooms and get connected w
      ```
 - run the server `npm run server` and in another terminal `npm run client`
 
-## User Stories
+## User Stories           
 as a user : 
   - I can sign up in the app or sign in with google account to use the app features.
   - I can see all available rooms when I sign in to join them.
