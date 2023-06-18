@@ -31,7 +31,7 @@ as a user :
   - I can send and receive messages in a room to chat with other users.          
 
 ## Technologies             
-- Node.js
+- Node.js           
 - Express.js
 - MongoDB
 - Socket.IO
