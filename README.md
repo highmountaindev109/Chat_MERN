@@ -3,7 +3,7 @@ Realtime chat application where you can join different rooms and get connected w
 
 ## Live Demo                
 
-[click here to see the app prototype](https://chatty-room.herokuapp.com/)
+[click here to see the app prototype](https://chatty-room.herokuapp.com/)           
 
 ## Installation Guide
 
