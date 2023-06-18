@@ -16,7 +16,7 @@ Realtime chat application where you can join different rooms and get connected w
      PRO_DB=PRODUCTION_MONGO_DB_URL            
      SECRET_KEY=ANY_SECERT_KEY_TO_SIGN_TOKENS
      DEV_DB=DEVELOPMENT_MONGO_DB_URL
-     ```
+     ```                       
 - create `.env` file in the client directory with the following:     
      ```js
      REACT_APP_CLIENT_ID=YOUR_GOOGLE_PROJECT_ID
