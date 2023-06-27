@@ -5,7 +5,7 @@ Realtime chat application where you can join different rooms and get connected w
 
 [click here to see the app prototype](https://chatty-room.herokuapp.com/)                   
 
-## Installation Guide
+## Installation Guide           
                 
 - clone the repo
 - install dependancies: `npm install`             
