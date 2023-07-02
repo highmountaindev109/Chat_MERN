@@ -21,7 +21,7 @@ Realtime chat application where you can join different rooms and get connected w
      ```js
      REACT_APP_CLIENT_ID=YOUR_GOOGLE_PROJECT_ID           
      ```
-- run the server `npm run server` and in another terminal `npm run client`
+- run the server `npm run server` and in another terminal `npm run client`           
 
 ## User Stories           
 as a user :                      
