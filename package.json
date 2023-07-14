@@ -11,7 +11,7 @@
     "start": "cross-env NODE_ENV=production node ./server/src",
     "heroku-postbuild": "NODE_ENV=production cd client && npm run build",
     "install": "npm run init",
-    "kill": "fuser -k 4000/tcp"
+    "kill": "fuser -k 4000/tcp"       
   },
   "cacheDirectories": [
     "node_modules",
